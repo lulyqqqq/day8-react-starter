@@ -1,11 +1,11 @@
 import './App.css';
-import ProductItem from "./components/ProductItem";
+import ProductionCategory from "./components/ProductionCategory";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ProductItem/>
+        <ProductionCategory/>
       </header>
     </div>
   );
