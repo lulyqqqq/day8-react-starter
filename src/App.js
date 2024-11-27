@@ -1,14 +1,12 @@
 import './App.css';
-import CounterPractice from "./components/CounterPractice";
+import MultipleCounter from "./components/MultipleCounter";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       <CounterPractice/>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <MultipleCounter/>
+        </div>
+    );
 }
 
 export default App;
