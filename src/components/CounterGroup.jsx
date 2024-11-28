@@ -13,7 +13,7 @@ const CounterGroup = (props) => {
         setSum(sum + number)
     }
     return (<div>
-        <span>{sum}</span>
+        sum:<span>{sum}</span>
         {arr.map((randomId, index) => {
             return <Counter key={index + randomId} updateSum={handleSum}/>
         })}
